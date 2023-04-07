@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
