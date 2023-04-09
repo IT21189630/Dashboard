@@ -8,8 +8,47 @@ $secondary-color-purple4: #E9E3FF;
 .main-container{
     position: relative;
     width: auto;
-    height:710px;
+    height:600px;
     margin: 5px;
+}
+
+@media only screen and (min-width: 1400px){
+    .main-container{
+        height: 710px;
+    }
+
+    .running-short-container {
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .chart-container{
+        height: 300px;
+        width: 900px;
+    }
+
+    .running-short-container{
+        height: 330px;
+    }
+
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    
+    // chart container styles{
+    .chart-container {
+        height: 200px;
+        width: 600px;  
+    }       
+}
+
+.chart-container{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 9px rgba($color: #000000, $alpha: .4);
 }
 
 .overall-report-bar{
@@ -56,6 +95,9 @@ $secondary-color-purple4: #E9E3FF;
     font-weight: 600;
 }
 
+
+
+
 // second row styles goes on here
 
 .row-heading{
@@ -73,7 +115,6 @@ $secondary-color-purple4: #E9E3FF;
 
 .running-short-container{
     width: 100%;
-    height: 650px;
     padding: 0 10px;
     margin: 5px;
     overflow-y: scroll;

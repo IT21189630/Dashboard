@@ -5,6 +5,18 @@ $secondary-color-purple2: #5F27CD;
 $secondary-color-purple3: #9980FA;
 $secondary-color-purple4: #E9E3FF;
 
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    .actionbar-container-manage-inventory {
+        width: 1000px;
+    }
+
+    .search-results-section{
+        height: 600px;
+    }
+}
+
+
 .actionbar-container-manage-inventory {
     display: flex;
     flex-direction: column;

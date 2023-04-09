@@ -11,21 +11,17 @@ $secondary-color-purple4: #E9E3FF;
 }
 
 // media queries for adjust the action section
-@media only screen and (max-width: 1200px) {
-    .actionbar-container {
-        width: 800px;
-    }
-}
-
 @media only screen and (min-width: 1200px) {
     .actionbar-container {
-        width: 1570px;
+        width: 1640px;
     }
 }
 
-
-
-
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    .actionbar-container{
+        width: 1070px;
+    }
+}
 
 .main-ribbon {
     display: flex;

@@ -3,6 +3,7 @@ import { DataGrid } from "@mui/x-data-grid";
 import { productRows } from "../../dummyData";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import {Box} from '@mui/material'
 
 export default function ProductList() {
   const [data, setData] = useState(productRows);
@@ -69,6 +70,7 @@ export default function ProductList() {
 
   return (
     <div className="userList">
+      <Box height="90vh">
       <DataGrid
         className="customDataGrid"
         rows={data}
@@ -77,6 +79,7 @@ export default function ProductList() {
         checkboxSelection
         getRowClassName={() => "grid-cell"}
       />
+      </Box>
     </div>
   );
 }

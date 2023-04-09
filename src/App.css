@@ -6,9 +6,8 @@
 
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
     height: 100vh;
 }
 
@@ -17,3 +16,4 @@
     text-decoration: none;
     color: inherit;
 }
+
