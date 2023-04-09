@@ -1,12 +1,14 @@
 .productList{
     flex: 4;
     padding: 5px 10px;
-    min-width: 500px; 
+    min-width: 500px;
+    height: 710px; 
 }
 
 .productListItem{
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
 .productListImg {
