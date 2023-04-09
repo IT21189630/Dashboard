@@ -11,7 +11,7 @@ $secondary-color-purple4: #E9E3FF;
     justify-content: flex-start;
     align-items: center;
     width: auto;
-    height: 710px;
+    height: auto;
     overflow: hidden;
     position: relative;
 }
@@ -55,11 +55,22 @@ $secondary-color-purple4: #E9E3FF;
 
 // search results and displayers stylings
 
+
+// .result-container {
+//     border-radius: 12px;
+//     width: 100%;
+//     padding: 10px 20px;
+//     display: flex;
+//     justify-content: space-evenly;
+//     margin-top: 5px;
+//     border: 1px solid rgba($color: #000000, $alpha: .4);
+// }
+
 .inventory-info-item-head {
     width: 100%;
     padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 10px;
     border-top: 1px solid #888;
     border-bottom: 1px solid #888;
@@ -81,9 +92,17 @@ $secondary-color-purple4: #E9E3FF;
     font-size: 16px;
 }
 
+.search-results-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
 .search-results-container{
     width: 100%;
-    height: 580px;
+    height: 720px;
     padding: 0 10px;
     margin: 5px;
     overflow-y: scroll;

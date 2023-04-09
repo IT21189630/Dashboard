@@ -37,12 +37,13 @@ $secondary-color-purple4: #E9E3FF;
 // side bar items
 
 .functionPrompt{
-    width: 350px;
+    width: 340px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 10px;
     margin: 5px 0;
+    background-color: $secondary-color-purple4;
 }
 
 
@@ -51,8 +52,8 @@ $secondary-color-purple4: #E9E3FF;
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    margin-right: 15px;
-    color: white;
+    margin-right: 10px;
+    color: $secondary-color-purple2;
 }
 
 .mainFuncItemName {
@@ -63,7 +64,7 @@ $secondary-color-purple4: #E9E3FF;
     margin-left: 10px;
     margin-right: 15px;
     width: 250px;
-    color: white;
+    color: $secondary-color-purple2;
 }
 
 
@@ -73,7 +74,7 @@ $secondary-color-purple4: #E9E3FF;
     align-items: center;
     font-size: 25px;
     margin-left: 25px;
-    color: white;
+    color: $secondary-color-purple2;
 }
 
 
