@@ -75,6 +75,9 @@ $secondary-color-purple4: #E9E3FF;
 }
 
 .item-field-manage-inventory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 165px;
     text-align: center;
     color: #2C2C54;
