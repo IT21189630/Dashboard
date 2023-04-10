@@ -3,63 +3,66 @@ import '../../sass/add-item.scss'
 
 function AddItemComponent() {
   return (
-    <div className='main-container-add-item'>
-      <form className="add-item-form-container">
-        <div className="form-heading-add-item">
-          Add Item
-        </div>
-        {/* this is the first column */}
-        <div className="form-column">
-          {/* product Name */}
-            <div className="input-set">
-              <label className="label-style">Product Name</label>
-              <input type="text" className="input-field-style" />
-            </div>
-            {/* product ID */}
-            <div className="input-set">
-              <label className="label-style">Product ID</label>
-              <input type="text" className="input-field-style" />
-            </div>
-            {/* category */}
-            <div className="input-set">
-              <label className="label-style">Category</label>
-              <select className="dropdown-style">
-                  <option value="Clinical Item">Clinical Item</option>
-                  <option value="Pet Essential">Pet Product</option>
-              </select>
-            </div>
-            {/* Product description */}
-            <div className="input-set">
-              <label className="label-style">Product Description</label>
-              <textarea name="" id="" className='textarea-style'></textarea>
-            </div>
-        </div>
-        {/* this is the second column */}
-        <div className="form-column">
-            {/* Quantity */}
-            <div className="input-set">
-              <label className="label-style">Product Quantity</label>
-              <input type="text" className="input-field-style" />
-            </div>
-            {/* manufacturer */}
-            <div className="input-set">
-              <label className="label-style">Manufacturer</label>
-              <input type="text" className="input-field-style" />
-            </div>
-            {/* image */}
-            <div className="input-set">
-              <label className="label-style">Product Image</label>
-              <input type="file" className="input-file-style" />
-            </div>
-        </div>
-        <div className="add-btn-container">
-              <button className="add" type='submit'>Add</button>
-              <button className="reset" type='reset'>Reset</button>
-        </div>
-      </form>
-      <div className="data-reader">
+    <div className="add-item-container-main">
+        {/* this is the status model */}
+        <div className="form-status-model"></div>
 
-      </div>
+        {/* this is the form container */}
+        <form className="add-item-form-container" onSubmit="">
+            <span className="tagline-add-item">Fill the form for add item</span>
+            {/* input field container */}
+            <div className="column-container">
+              {/* column one */}
+              <div className="add-item-column">
+                <section className="input-container">
+                  <span className="input-title">product name</span>
+                  <input className="input-field"/>
+                </section>
+                <section className="input-container">
+                  <span className="input-title">product id</span>
+                  <input className="input-field"/>
+                </section>
+                <section className="input-container">
+                  <span className="input-title">category</span>
+                  <select className="input-field">
+                      <option className='select-option' value="clinical-item">Clinical Item</option>
+                      <option className='select-option' value="store-item">Pet Store Item</option>
+                  </select> 
+                </section>
+                <section className="input-container">
+                  <span className="input-title">unit price</span>
+                  <input className="input-field"/>
+                </section>
+                <section className="input-container">
+                  <span className="input-title">location</span>
+                  <input className="input-field"/>
+                </section>
+              </div>
+              {/* column two */}
+              <div className="add-item-column">
+                    <section className="input-container">
+                        <span className="input-title">quantity</span>
+                        <input className="input-field"/>
+                    </section>
+                    <section className="input-container">
+                        <span className="input-title">manufacturer</span>
+                        <input className="input-field"/>
+                    </section>
+                    <section className="input-container">
+                        <span className="input-title">product description</span>
+                        <textarea className='input-textarea' id="" cols="30" rows="10"></textarea>
+                    </section>
+                    <section className="input-container">
+                        <span className="input-title">product image</span>
+                        <input type="file" name="" id="" className='input-field'/>
+                    </section>
+                    <div className="btn-container-add-item">
+                      <button type='submit' className="submit-btn">Submit</button>
+                      <button type='reset' className="reset-btn">Reset</button>
+                    </div>
+              </div>
+            </div>
+        </form>
     </div>
   )
 }
