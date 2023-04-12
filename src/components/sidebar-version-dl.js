@@ -35,8 +35,8 @@ function SideBar() {
                     <span className="mainFunction">
                         <span className="functionPrompt">
                           <span className="mainFuncIcon">{icon}</span>
-                          <span className="mainFuncItemName">{text}</span>
-                          <span className={`scrollFuncIcon ${index === selectedMain && 'scroll-function-show'}`} onClick={()=>{eventTransformer(index)}}>
+                          <span className="mainFuncItemName" onClick={()=>{eventTransformer(index)}}>{text}</span>
+                          <span className={`scrollFuncIcon ${index === selectedMain && 'scroll-function-show'}`}>
                               <IoIosArrowForward/>
                           </span>
                         </span>

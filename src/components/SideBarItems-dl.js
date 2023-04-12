@@ -20,6 +20,10 @@ import {MdDesignServices} from 'react-icons/md'
 import {MdSell} from 'react-icons/md'
 import {MdDeliveryDining} from 'react-icons/md'
 import {SiGoogleanalytics} from 'react-icons/si'
+
+import {BsPeopleFill} from 'react-icons/bs'
+import {MdHolidayVillage} from 'react-icons/md'
+import {GiTakeMyMoney} from 'react-icons/gi'
 // main function icons
 import {AiFillApi} from 'react-icons/ai'
 import {BiStoreAlt} from 'react-icons/bi'
@@ -124,22 +128,22 @@ const sidebarItems = [
                 {
                     id:300,
                     link:"",
-                    nestedItemicon:<BsFillBoxSeamFill/>,
-                    nestedItemtext:"Products"
+                    nestedItemicon:<BsPeopleFill/>,
+                    nestedItemtext:"Manage Staff"
                 },
 
                 {
                     id:301,
                     link:"",
-                    nestedItemicon:<BsFillCartFill/>,
-                    nestedItemtext:"Orders"
+                    nestedItemicon:<MdHolidayVillage/>,
+                    nestedItemtext:"Manage Leaves"
                 },
 
                 {
                     id:302,
                     link:"",
-                    nestedItemicon:<MdInsights/>,
-                    nestedItemtext:"Insights"
+                    nestedItemicon:<GiTakeMyMoney/>,
+                    nestedItemtext:"Manage Payrolls"
                 },
         ]
     },

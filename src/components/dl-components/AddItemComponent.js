@@ -15,11 +15,11 @@ function AddItemComponent() {
               {/* column one */}
               <div className="add-item-column">
                 <section className="input-container">
-                  <span className="input-title">product name</span>
+                  <span className="input-title">item name</span>
                   <input className="input-field"/>
                 </section>
                 <section className="input-container">
-                  <span className="input-title">product id</span>
+                  <span className="input-title">store keeping unit (SKU)</span>
                   <input className="input-field"/>
                 </section>
                 <section className="input-container">
@@ -34,7 +34,7 @@ function AddItemComponent() {
                   <input className="input-field"/>
                 </section>
                 <section className="input-container">
-                  <span className="input-title">location</span>
+                  <span className="input-title">rack number</span>
                   <input className="input-field"/>
                 </section>
               </div>
