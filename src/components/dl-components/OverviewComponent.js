@@ -49,8 +49,8 @@ function OverviewComponent() {
         <div className="row-heading">Limited Availability Items</div>
         <div className="second-row-container">
             <div className="running-short-item-head">
-                  <span className="item-field-head">Product Name</span>
-                  <span className="item-field-head">Product ID</span>
+                  <span className="item-field-head">Item Name</span>
+                  <span className="item-field-head">SKU</span>
                   <span className="item-field-head">Category</span>
                   <span className="item-field-head">Available Qty.</span>
                   <span className="item-field-head">Priority Level</span>

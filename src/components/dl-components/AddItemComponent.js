@@ -4,9 +4,6 @@ import '../../sass/add-item.scss'
 function AddItemComponent() {
   return (
     <div className="add-item-container-main">
-        {/* this is the status model */}
-        <div className="form-status-model"></div>
-
         {/* this is the form container */}
         <form className="add-item-form-container" onSubmit="">
             <span className="tagline-add-item">Fill the form for add item</span>

@@ -28,7 +28,7 @@ function ActionSection() {
       {/* main ribbon part this contain the profile details including name designation and image */}
       <div className="main-ribbon">
         <div className="inventory-management-text">
-            main dashboard
+            Main Dashboard
         </div>
 
         <div className="user-details">
