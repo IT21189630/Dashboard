@@ -41,9 +41,9 @@ function OverviewComponent() {
             </div>
         </div>
 
-        <div className="chart-container">
+        {/* <div className="chart-container">
           
-        </div>
+        </div> */}
 
         {/* Runnnig on short displayer */}
         <div className="row-heading">Limited Availability Items</div>
