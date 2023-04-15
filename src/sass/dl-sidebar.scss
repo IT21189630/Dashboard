@@ -96,10 +96,12 @@ $secondary-color-purple4: #E9E3FF;
     height: 0;
     overflow: hidden;
     transition: all .4s ease-in-out;
+    transform: scale(0);
 }
 
 .nested-function-container .cont-show {
     height: auto;
+    transform: scale(1);
 }
 
 
@@ -131,7 +133,6 @@ $secondary-color-purple4: #E9E3FF;
 }
 
 .side-bar-nested-item:hover {
-    background-color: white;
     color: $secondary-color-purple1;
     cursor: pointer;
 }
